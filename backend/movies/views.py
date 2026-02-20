@@ -65,9 +65,9 @@ def search_movies(request):
 
 
 
+
 # for test only
 from django.http import JsonResponse
-
 def test_api(request):
     return JsonResponse({
         "status": "ok",
